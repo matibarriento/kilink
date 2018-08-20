@@ -44,6 +44,7 @@ In a future this will be in a Doc file (source of that HTML).
 
 How To Try It In Development
 ----------------------------
+### Run the app
 
 Just using fades:
 
@@ -69,6 +70,46 @@ Or if you prefer to use Docker
 docker build -t kilink .
 docker run -it -p 5000:5000 kilink
 ```
+
+### Test the app
+
+#### Backend tests
+
+Just using fades:
+
+```
+./test2
+```
+
+Or inside a virtualenv:
+
+```
+./test
+```
+
+#### Web client tests
+
+We use [cypress](https://www.cypress.io/) to test the frontend
+
+Install dependencies and start a dev server
+```
+npm install
+./run
+```
+
+Web client tests command:
+```
+npm run test
+```
+
+Web client tests gui
+
+```
+npm run cypress:open
+```
+
+##### Known issues
+Dev server should be started in a different terminal
 
 How to Translate
 ----------------

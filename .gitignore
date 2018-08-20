@@ -9,3 +9,5 @@ _trial_temp
 tmp/
 .fuse*
 .directory
+.idea/
+node_modules/

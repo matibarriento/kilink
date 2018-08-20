@@ -1,0 +1,26 @@
+{
+  "name": "kilink",
+  "version": "1.0.0",
+  "description": "Linkode is the useful pastebin!",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "cypress run",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matibarriento/kilink.git"
+  },
+  "author": "Facundo Batista",
+  "license": "GPL v3",
+  "bugs": {
+    "url": "https://github.com/matibarriento/kilink/issues"
+  },
+  "homepage": "https://github.com/matibarriento/kilink#readme",
+  "devDependencies": {
+    "cypress": "^3.1.0"
+  }
+}
